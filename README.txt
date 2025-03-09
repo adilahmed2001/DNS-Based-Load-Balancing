@@ -1,3 +1,10 @@
+A DNS Based Load Balancing System implemented on AWS Cloud using BIND DNS Server and Python.
+
+Implemented 3 load balancing Algorithms:
+- Round Robin
+- Geo Location Based Load Balancing
+- Load Based Round Robin
+
 To execute first install bind server using following command:
 sudo apt update
 sudo apt install bind9
