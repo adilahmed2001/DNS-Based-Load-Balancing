@@ -1,0 +1,39 @@
+include "/etc/bind/named.conf.options";
+include "/etc/bind/named.conf.log";
+include "/etc/bind/geoloc.conf";
+
+view USA {
+	match-clients {US;};
+	
+	zone "mohammedadilsaikiran.online" {
+		type master;
+		file "/etc/bind/zones/db.us.online";
+	};
+};
+
+view IND {
+	match-clients {IN;};
+
+	zone "mohammedadilsaikiran.online" {
+		type master;
+		file "/etc/bind/zones/db.in.online";
+	};
+};
+
+view UNK {
+        match-clients {UK;};
+
+        zone "mohammedadilsaikiran.online" {
+                type master;
+                file "/etc/bind/zones/db.uk.online";
+        };
+};
+
+view default {
+        match-clients {any;};
+
+        zone "mohammedadilsaikiran.online" {
+                type master;
+                file "/etc/bind/zones/db.default.online";
+        };
+};

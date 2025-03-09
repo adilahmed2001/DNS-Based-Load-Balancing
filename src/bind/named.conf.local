@@ -1,0 +1,5 @@
+zone "mohammedadilsaikiran.online" {
+        type master;
+        file "/var/lib/bind/db.mohammedadilsaikiran.online";
+	allow-update { any; };
+};

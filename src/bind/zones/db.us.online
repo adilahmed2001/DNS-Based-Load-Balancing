@@ -1,0 +1,17 @@
+$TTL 0
+@       IN      SOA     ns1.mohammedadilsaikiran.online. admin.mohammedadilsaikiran.online. (
+                                1       ;<serial-number>
+                              900       ;<time-to-refresh>
+                              900       ;<time-to-retry>
+                           604800       ;<time-to-expire>
+                              900)      ;<minimum-TTL>
+;List Nameservers
+        IN      NS      ns1.mohammedadilsaikiran.online.
+        IN      NS      ns2.mohammedadilsaikiran.online.
+;Create A record
+        IN      A       75.101.146.32
+;address to name mapping
+ns1     IN      A       44.209.116.84
+ns2     IN      A       44.209.116.84
+;wildcard DNS entry
+*       IN      A       75.101.146.32

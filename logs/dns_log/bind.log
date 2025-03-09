@@ -1,0 +1,649 @@
+28-Nov-2023 00:00:26.509 general: info: reloading configuration succeeded
+28-Nov-2023 00:00:26.509 general: info: reloading zones succeeded
+28-Nov-2023 00:00:26.589 dnssec: info: managed-keys-zone/default: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.597 resolver: info: resolver priming query complete: success
+28-Nov-2023 00:00:26.597 general: warning: checkhints: view default: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 00:00:26.597 general: warning: checkhints: view default: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 00:00:26.597 general: warning: checkhints: view default: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 00:00:26.597 general: warning: checkhints: view default: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 00:00:26.597 dnssec: info: managed-keys-zone/USA: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.613 dnssec: info: managed-keys-zone/IND: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.625 general: notice: all zones loaded
+28-Nov-2023 00:00:26.625 general: notice: running
+28-Nov-2023 00:00:26.629 dnssec: info: managed-keys-zone/default: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.633 dnssec: info: managed-keys-zone/USA: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.633 dnssec: info: managed-keys-zone/IND: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:00:26.665 dnssec: info: managed-keys-zone/UNK: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 00:08:04.316 queries: info: client @0x7f01e00cef08 80.82.77.33#15780 (id.server): query: id.server CH TXT + (172.31.36.196)
+28-Nov-2023 00:08:04.680 queries: info: client @0x7f01e00cef08 80.82.77.33#51707 (direct.shodan.io): view default: query: direct.shodan.io IN A + (172.31.36.196)
+28-Nov-2023 00:08:04.680 security: info: client @0x7f01e00cef08 80.82.77.33#51707 (direct.shodan.io): view default: query (cache) 'direct.shodan.io/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 00:08:04.680 query-errors: info: client @0x7f01e00cef08 80.82.77.33#51707 (direct.shodan.io): view default: query failed (REFUSED) for direct.shodan.io/IN/A at query.c:5668
+28-Nov-2023 00:08:04.760 queries: info: client @0x7f01e00cef08 80.82.77.33#54689 (version.bind): query: version.bind CH TXT + (172.31.36.196)
+28-Nov-2023 00:08:04.840 queries: info: client @0x7f01e00cef08 80.82.77.33#41018 (hostname.bind): query: hostname.bind CH TXT + (172.31.36.196)
+28-Nov-2023 00:09:55.604 queries: info: client @0x7f01e00cef08 146.190.35.121#47456 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 00:09:55.676 queries: info: client @0x7f01e00cef08 146.190.35.133#5306 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN NS -E(0)D (172.31.36.196)
+28-Nov-2023 00:18:19.023 queries: info: client @0x7f01e00cef08 24.144.95.124#55178 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0) (172.31.36.196)
+28-Nov-2023 00:18:19.099 queries: info: client @0x7f01e00cef08 24.144.95.124#55178 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0) (172.31.36.196)
+28-Nov-2023 00:18:19.555 queries: info: client @0x7f01e00cef08 24.144.95.124#55178 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 00:23:35.494 queries: info: client @0x7f01e00cef08 172.69.187.218#52642 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN NS -E(0)D (172.31.36.196)
+28-Nov-2023 00:23:35.570 queries: info: client @0x7f01e00cef08 172.69.187.218#36224 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 00:23:35.662 queries: info: client @0x7f01e00cef08 74.125.181.5#58389 (mOHAmmEDadilsaIkIRaN.ONLinE): view default: query: mOHAmmEDadilsaIkIRaN.ONLinE IN A -E(0)DC (172.31.36.196) [ECS 57.128.80.0/24/0]
+28-Nov-2023 00:23:35.766 queries: info: client @0x7f01e00cef08 74.125.47.1#51450 (wWw.moHaMMedadIlSAIKIRan.OnliNe): view default: query: wWw.moHaMMedadIlSAIKIRan.OnliNe IN A -E(0)DC (172.31.36.196) [ECS 57.128.80.0/24/0]
+28-Nov-2023 00:23:35.862 queries: info: client @0x7f01e00cef08 74.125.47.130#53301 (MOHamMEdadiLSaiKIrAN.OnLiNe): view default: query: MOHamMEdadiLSaiKIrAN.OnLiNe IN AAAA -E(0)DC (172.31.36.196) [ECS 57.128.80.0/24/0]
+28-Nov-2023 00:23:35.962 queries: info: client @0x7f01e00cef08 172.253.248.44#49972 (www.MohAmMeDADIlSAIkIrAn.OnliNE): view default: query: www.MohAmMeDADIlSAIkIrAn.OnliNE IN AAAA -E(0)DC (172.31.36.196) [ECS 57.128.80.0/24/0]
+28-Nov-2023 00:23:36.058 queries: info: client @0x7f01e00cef08 172.71.117.56#59801 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN MX -E(0)D (172.31.36.196)
+28-Nov-2023 00:23:36.134 queries: info: client @0x7f01e00cef08 172.71.117.56#36011 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 00:23:36.226 queries: info: client @0x7f01e00cef08 172.71.121.108#10438 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN TXT -E(0)D (172.31.36.196)
+28-Nov-2023 00:23:36.302 queries: info: client @0x7f01e00cef08 172.71.121.108#44348 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 00:28:51.030 queries: info: client @0x7f01e00cef08 24.199.97.106#36408 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 00:28:51.634 queries: info: client @0x7f01e00cef08 24.199.97.106#36408 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 00:34:08.457 queries: info: client @0x7f01e00cef08 172.253.1.1#48661 (MOHaMmEDaDiLSAiKiRaN.ONline): view USA: query: MOHaMmEDaDiLSAiKiRaN.ONline IN AAAA -E(0)DC (172.31.36.196) [ECS 49.51.179.0/24/0]
+28-Nov-2023 00:34:08.457 queries: info: client @0x7f01e00cef08 172.253.2.4#39084 (MohAmMEdadiLSAIkiRAn.ONLINe): view USA: query: MohAmMEdadiLSAIkiRAn.ONLINe IN A -E(0)DC (172.31.36.196) [ECS 49.51.179.0/24/0]
+28-Nov-2023 00:34:09.269 queries: info: client @0x7f01e00cef08 162.158.165.124#33542 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 00:34:09.269 queries: info: client @0x7f01e00cef08 74.125.181.129#36157 (ns1.MoHAMmEDadilsaiKiRaN.OnLiNe): view USA: query: ns1.MoHAMmEDadilsaiKiRaN.OnLiNe IN AAAA -E(0)DC (172.31.36.196) [ECS 49.51.179.0/24/0]
+28-Nov-2023 00:34:09.277 queries: info: client @0x7f01e00cef08 74.125.181.129#50077 (Ns2.mOHaMMeDAdilSAikirAn.ONlINE): view USA: query: Ns2.mOHaMMeDAdilSAikirAn.ONlINE IN A -E(0)DC (172.31.36.196) [ECS 49.51.179.0/24/0]
+28-Nov-2023 00:34:09.285 queries: info: client @0x7f01e00cef08 172.71.157.95#35137 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 00:34:09.341 queries: info: client @0x7f01e00cef08 162.158.165.124#44944 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 00:34:09.365 queries: info: client @0x7f01e00cef08 172.71.157.95#28024 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 00:48:37.408 queries: info: client @0x7f01e00cef08 143.110.254.231#38854 (ns1.mohammedadilsaikiran.online): view IND: query: ns1.mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 00:48:38.488 queries: info: client @0x7f01e00cef08 143.110.254.231#38854 (ns1.mohammedadilsaikiran.online): view IND: query: ns1.mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 00:48:39.892 queries: info: client @0x7f01e00cef08 143.110.254.231#38854 (ns1.mohammedadilsaikiran.online): view IND: query: ns1.mohammedadilsaikiran.online IN NS -E(0) (172.31.36.196)
+28-Nov-2023 00:54:03.403 queries: info: client @0x7f01e00cef08 184.105.247.204#18184 (dnsscan.shadowserver.org): view USA: query: dnsscan.shadowserver.org IN A + (172.31.36.196)
+28-Nov-2023 00:54:03.403 security: info: client @0x7f01e00cef08 184.105.247.204#18184 (dnsscan.shadowserver.org): view USA: query (cache) 'dnsscan.shadowserver.org/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 00:54:03.403 query-errors: info: client @0x7f01e00cef08 184.105.247.204#18184 (dnsscan.shadowserver.org): view USA: query failed (REFUSED) for dnsscan.shadowserver.org/IN/A at query.c:5668
+28-Nov-2023 01:10:04.733 queries: info: client @0x7f01e00cef08 184.105.247.200#48256 (version.bind): query: version.bind CH TXT + (172.31.36.196)
+28-Nov-2023 01:35:52.282 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN A -E(0) (172.31.36.196)
+28-Nov-2023 01:35:53.078 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN A - (172.31.36.196)
+28-Nov-2023 01:35:55.198 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN A +E(0) (172.31.36.196)
+28-Nov-2023 01:35:55.434 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 01:35:56.530 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA -E(0) (172.31.36.196)
+28-Nov-2023 01:35:57.018 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 01:35:58.150 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA +E(0) (172.31.36.196)
+28-Nov-2023 01:35:59.786 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 01:36:01.186 queries: info: client @0x7f01e00cef08 142.93.216.139#60134 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 02:00:23.471 queries: info: client @0x7f01e00cef08 54.36.149.27#22000 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 02:04:23.199 queries: info: client @0x7f01e00cef08 139.162.147.31#55228 (mz.gov.pl): view default: query: mz.gov.pl IN ANY +E(0)K (172.31.36.196)
+28-Nov-2023 02:04:23.199 security: info: client @0x7f01e00cef08 139.162.147.31#55228 (mz.gov.pl): view default: query (cache) 'mz.gov.pl/ANY/IN' denied (allow-query-cache did not match)
+28-Nov-2023 02:04:23.199 query-errors: info: client @0x7f01e00cef08 139.162.147.31#55228 (mz.gov.pl): view default: query failed (REFUSED) for mz.gov.pl/IN/ANY at query.c:5668
+28-Nov-2023 02:04:52.679 queries: info: client @0x7f01e00cef08 172.217.44.129#47875 (MOhAmmEDaDilSAIkirAN.ONlinE): view default: query: MOhAmmEDaDilSAIkirAN.ONlinE IN A -E(0)DC (172.31.36.196) [ECS 88.198.127.0/24/0]
+28-Nov-2023 02:04:52.679 queries: info: client @0x7f01e0072928 74.125.187.131#41755 (MOHAMMEdAdILsAIKIRAn.oNLiNe): view default: query: MOHAMMEdAdILsAIKIRAn.oNLiNe IN AAAA -E(0)DC (172.31.36.196) [ECS 88.198.127.0/24/0]
+28-Nov-2023 02:04:52.775 queries: info: client @0x7f01e0072928 172.217.34.3#55905 (MohAMmeDadIlSaikIRan.oNLInE): view default: query: MohAMmeDadIlSaikIRan.oNLInE IN MX -E(0)DC (172.31.36.196)
+28-Nov-2023 02:04:52.867 queries: info: client @0x7f01e0072928 74.125.187.130#35459 (mOhAMmeDaDilSAIkIran.onlIne): view default: query: mOhAMmeDaDilSAIkIran.onlIne IN NS -E(0)DC (172.31.36.196) [ECS 88.198.127.0/24/0]
+28-Nov-2023 02:12:32.426 queries: info: client @0x7f01e0072928 164.92.137.105#36778 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 02:12:33.746 queries: info: client @0x7f01e0072928 164.92.137.105#36778 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 02:16:14.561 queries: info: client @0x7f01e0072928 172.253.211.4#57601 (wwW.MOhaMmEDADILsAIkIran.onLine): view default: query: wwW.MOhaMmEDADILsAIkIran.onLine IN AAAA -E(0)DC (172.31.36.196) [ECS 129.226.146.0/24/0]
+28-Nov-2023 02:16:14.577 queries: info: client @0x7f01e0072928 172.217.32.140#55859 (WwW.moHaMmEdAdILsAIkiRAN.oNLinE): view default: query: WwW.moHaMmEdAdILsAIkiRAN.oNLinE IN A -E(0)DC (172.31.36.196) [ECS 129.226.146.0/24/0]
+28-Nov-2023 02:16:15.485 queries: info: client @0x7f01e0072928 74.125.190.133#52946 (Www.NS2.MoHAMMEDaDILsaikIRaN.onLiNe): view default: query: Www.NS2.MoHAMMEDaDILsaikIRaN.onLiNe IN AAAA -E(0)DC (172.31.36.196) [ECS 129.226.146.0/24/0]
+28-Nov-2023 02:16:15.485 queries: info: client @0x7f01e0072928 172.253.216.131#48825 (wWW.nS1.MOHAMmeDadilsaiKiran.oNlIne): view default: query: wWW.nS1.MOHAMmeDadilsaiKiran.oNlIne IN AAAA -E(0)DC (172.31.36.196) [ECS 129.226.146.0/24/0]
+28-Nov-2023 02:16:15.497 queries: info: client @0x7f01e0072928 172.253.211.8#63786 (WWW.ns2.MOHAmMEdaDiLSaikIraN.oNLiNE): view default: query: WWW.ns2.MOHAmMEdaDiLSaikIraN.oNLiNE IN A -E(0)DC (172.31.36.196) [ECS 129.226.146.0/24/0]
+28-Nov-2023 02:16:15.529 queries: info: client @0x7f01e0072928 172.70.141.129#40325 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 02:16:15.793 queries: info: client @0x7f01e0072928 172.70.141.129#59808 (www.ns1.mohammedadilsaikiran.online): view default: query: www.ns1.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 02:16:16.049 queries: info: client @0x7f01e0072928 172.70.141.129#63034 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 02:28:12.000 queries: info: client @0x7f01e0072928 131.159.25.7#50720 (www.google.com): view default: query: www.google.com IN A + (172.31.36.196)
+28-Nov-2023 02:28:12.000 security: info: client @0x7f01e0072928 131.159.25.7#50720 (www.google.com): view default: query (cache) 'www.google.com/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 02:28:12.000 query-errors: info: client @0x7f01e0072928 131.159.25.7#50720 (www.google.com): view default: query failed (REFUSED) for www.google.com/IN/A at query.c:5668
+28-Nov-2023 02:42:32.438 queries: info: client @0x7f01e0072928 135.148.217.16#49461 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.438 queries: info: client @0x7f01e0072928 135.148.217.16#17027 (www.mohammedadilsaikiran.online): view USA: query: www.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196) [ECS 15.204.183.0/24/0]
+28-Nov-2023 02:42:32.438 queries: info: client @0x7f01e00cef08 135.148.217.16#50337 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.438 queries: info: client @0x7f01e00cef08 135.148.217.16#58310 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.438 queries: info: client @0x7f01e00cef08 135.148.217.16#27065 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e00cef08 135.148.217.5#62578 (www.mohammedadilsaikiran.online): view USA: query: www.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196) [ECS 15.204.183.0/24/0]
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e0072928 135.148.217.5#21368 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e58f3a78 135.148.217.5#35650 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e58f3a78 135.148.217.5#5529 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e58f3a78 135.148.217.5#58912 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 02:42:32.454 queries: info: client @0x7f01e0072928 135.148.217.5#14421 (www.mohammedadilsaikiran.online): view USA: query: www.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196) [ECS 15.204.183.0/24/0]
+28-Nov-2023 02:48:29.202 queries: info: client @0x7f01e0072928 198.235.24.212#49850 (version.bind): query: version.bind CH TXT + (172.31.36.196)
+28-Nov-2023 02:49:17.110 queries: info: client @0x7f01e0072928 138.197.36.210#45566 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN AAAA - (172.31.36.196)
+28-Nov-2023 02:49:17.118 queries: info: client @0x7f01e0072928 138.197.36.210#45566 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN NS - (172.31.36.196)
+28-Nov-2023 03:53:41.742 queries: info: client @0x7f01e0072928 108.162.240.152#35810 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 03:53:41.746 queries: info: client @0x7f01e0072928 74.125.19.193#41752 (MohaMmeDADILsaikiRan.oNline): view default: query: MohaMmeDADILsaikiRan.oNline IN A -E(0)DC (172.31.36.196) [ECS 184.75.223.0/24/0]
+28-Nov-2023 03:53:41.762 queries: info: client @0x7f01e0072928 108.162.240.152#16924 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 03:53:41.774 queries: info: client @0x7f01e0072928 162.244.55.27#4126 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 03:53:41.778 queries: info: client @0x7f01e0072928 74.125.16.228#57879 (mOHaMmEdaDilSAiKirAN.OnLinE): view default: query: mOHaMmEdaDilSAiKirAN.OnLinE IN A -E(0)DC (172.31.36.196) [ECS 184.75.223.0/24/0]
+28-Nov-2023 03:53:41.786 queries: info: client @0x7f01e0072928 162.244.55.27#15064 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 03:53:41.790 queries: info: client @0x7f01e0072928 162.244.55.27#31144 (ns1.mohammedadilsaikiran.online): view USA: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 03:53:41.810 queries: info: client @0x7f01e0072928 116.202.176.26#53907 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 04:01:31.301 queries: info: client @0x7f01e0072928 54.177.34.51#19721 (ns2.mohammedadilsaikiran.online): view USA: query: ns2.mohammedadilsaikiran.online IN A - (172.31.36.196)
+28-Nov-2023 04:05:58.161 queries: info: client @0x7f01e0072928 162.55.135.244#8101 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN SRV -E(0)DC (172.31.36.196)
+28-Nov-2023 04:14:52.427 queries: info: client @0x7f01e0072928 64.225.17.141#27216 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 04:14:52.531 queries: info: client @0x7f01e0072928 198.199.95.101#40964 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN NS -E(0)D (172.31.36.196)
+28-Nov-2023 04:39:32.033 queries: info: client @0x7f01e0072928 104.234.254.138#49372 (sl): view USA: query: sl IN ANY +E(0) (172.31.36.196)
+28-Nov-2023 04:39:32.033 security: info: client @0x7f01e0072928 104.234.254.138#49372 (sl): view USA: query (cache) 'sl/ANY/IN' denied (allow-query-cache did not match)
+28-Nov-2023 04:39:32.033 query-errors: info: client @0x7f01e0072928 104.234.254.138#49372 (sl): view USA: query failed (REFUSED) for sl/IN/ANY at query.c:5668
+28-Nov-2023 04:43:08.104 queries: info: client @0x7f01e0072928 145.102.6.89#57894 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.104 queries: info: client @0x7f01e0072928 145.102.6.89#17996 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN SOA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.104 queries: info: client @0x7f01e0072928 145.102.6.89#12992 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.200 queries: info: client @0x7f01e0072928 145.102.6.89#37375 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.200 queries: info: client @0x7f01e0072928 145.102.6.89#4766 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.304 queries: info: client @0x7f01e0072928 145.102.6.89#17579 (www.mohammedadilsaikiran.online): view default: query: www.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.304 queries: info: client @0x7f01e58f3a78 145.102.6.89#34174 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.304 queries: info: client @0x7f01e58f3a78 145.102.6.89#57478 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.400 queries: info: client @0x7f01e58f3a78 145.102.6.89#6823 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.400 queries: info: client @0x7f01e58f3a78 145.102.6.89#59328 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.496 queries: info: client @0x7f01e58f3a78 145.102.6.89#36016 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.496 queries: info: client @0x7f01e58f3a78 145.102.6.89#7531 (www.mohammedadilsaikiran.online): view default: query: www.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.496 queries: info: client @0x7f01e58f3a78 145.102.6.89#58937 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.600 queries: info: client @0x7f01e58f3a78 145.102.6.89#7785 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.600 queries: info: client @0x7f01e58f3a78 145.102.6.89#19966 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.600 queries: info: client @0x7f01e58f3a78 145.102.6.89#62750 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN NS -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.700 queries: info: client @0x7f01e58f3a78 145.102.6.89#49059 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.700 queries: info: client @0x7f01e58f3a78 145.102.6.89#33689 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN MX -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.700 queries: info: client @0x7f01e58f3a78 145.102.6.89#51374 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.800 queries: info: client @0x7f01e58f3a78 145.102.6.89#63535 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN TXT -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.800 queries: info: client @0x7f01e58f3a78 145.102.6.89#29946 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.900 queries: info: client @0x7f01e58f3a78 145.102.6.89#42027 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.900 queries: info: client @0x7f01e0072928 145.102.6.89#9496 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:08.900 queries: info: client @0x7f01e00cef08 145.102.6.89#46807 (_dmarc.mohammedadilsaikiran.online): view default: query: _dmarc.mohammedadilsaikiran.online IN TXT -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.004 queries: info: client @0x7f01e00cef08 145.102.6.89#29734 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.004 queries: info: client @0x7f01e00cef08 145.102.6.89#20978 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.004 queries: info: client @0x7f01e0072928 145.102.6.89#52055 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.124 queries: info: client @0x7f01e0072928 145.102.6.89#30681 (ns1.mohammedadilsaikiran.online): view default: query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.124 queries: info: client @0x7f01e00cef08 145.102.6.89#28810 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN CAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:09.124 queries: info: client @0x7f01e00cef08 145.102.6.89#62812 (ns2.mohammedadilsaikiran.online): view default: query: ns2.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 04:43:45.500 queries: info: client @0x7f01e00cef08 96.115.169.137#38876 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 04:43:45.564 queries: info: client @0x7f01e00cef08 96.115.169.137#13605 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 04:43:47.220 queries: info: client @0x7f01e00cef08 96.115.169.139#9694 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 04:43:47.360 queries: info: client @0x7f01e00cef08 96.115.169.167#49564 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 04:43:48.732 queries: info: client @0x7f01e00cef08 96.115.169.137#15361 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 04:43:48.840 queries: info: client @0x7f01e00cef08 96.115.169.135#49790 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 05:00:27.522 queries: info: client @0x7f01e00cef08 54.167.223.77#55882 (mOHamMedAdIlSAIKiRAn.oNLIne): view USA: query: mOHamMedAdIlSAIKiRAn.oNLIne IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:00:27.774 queries: info: client @0x7f01e00cef08 54.167.223.77#40068 (moHaMmEdadilsAiKIRAN.oNlINE): view USA: query: moHaMmEdadilsAiKIRAN.oNlINE IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:00:28.026 queries: info: client @0x7f01e00cef08 54.167.223.77#41194 (mOhAmmEdADILsaiKiraN.oNLINE): view USA: query: mOhAmmEdADILsaiKiraN.oNLINE IN MX -E(0)DC (172.31.36.196)
+28-Nov-2023 05:00:28.282 queries: info: client @0x7f01e00cef08 54.167.223.77#21458 (mOHaMMeDadiLSaIKIRan.OnLInE): view USA: query: mOHaMMeDadiLSaIKIRan.OnLInE IN NS -E(0)DC (172.31.36.196)
+28-Nov-2023 05:00:28.534 queries: info: client @0x7f01e00cef08 54.167.223.77#15463 (MohaMmEDAdIlsAiKIraN.oNlINe): view USA: query: MohaMmEDAdIlsAiKIraN.oNlINe IN SOA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:00:28.786 queries: info: client @0x7f01e00cef08 54.167.223.77#44962 (MOHamMeDaDILSAIKIrAN.ONLINe): view USA: query: MOHamMeDaDILSAIKIrAN.ONLINe IN TXT -E(0)DC (172.31.36.196)
+28-Nov-2023 05:31:15.454 queries: info: client @0x7f01e00cef08 52.73.169.169#51682 (www.cybergreen.net): view USA: query: www.cybergreen.net IN A +E(0) (172.31.36.196)
+28-Nov-2023 05:31:15.454 security: info: client @0x7f01e00cef08 52.73.169.169#51682 (www.cybergreen.net): view USA: query (cache) 'www.cybergreen.net/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 05:31:15.454 query-errors: info: client @0x7f01e00cef08 52.73.169.169#51682 (www.cybergreen.net): view USA: query failed (REFUSED) for www.cybergreen.net/IN/A at query.c:5668
+28-Nov-2023 05:39:35.005 queries: info: client @0x7f01e00cef08 162.158.93.148#44956 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN ZONEMD -E(0)D (172.31.36.196)
+28-Nov-2023 05:39:35.093 queries: info: client @0x7f01e00cef08 162.158.93.148#61177 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 05:39:50.085 general: info: received control channel command 'stop'
+28-Nov-2023 05:39:50.085 network: info: no longer listening on 127.0.0.1#53
+28-Nov-2023 05:39:50.085 network: info: no longer listening on 172.31.36.196#53
+28-Nov-2023 05:39:50.085 network: info: no longer listening on ::1#53
+28-Nov-2023 05:39:50.085 network: info: no longer listening on fe80::caf:d6ff:feed:e4b5%2#53
+28-Nov-2023 05:39:50.085 general: info: shutting down: flushing changes
+28-Nov-2023 05:39:50.085 general: notice: stopping command channel on 127.0.0.1#953
+28-Nov-2023 05:39:50.085 general: notice: stopping command channel on ::1#953
+28-Nov-2023 05:39:50.197 general: notice: exiting
+28-Nov-2023 05:39:50.925 zoneload: info: managed-keys-zone/USA: loaded serial 18
+28-Nov-2023 05:39:50.925 zoneload: info: managed-keys-zone/IND: loaded serial 15
+28-Nov-2023 05:39:50.925 zoneload: info: managed-keys-zone/UNK: loaded serial 14
+28-Nov-2023 05:39:50.925 zoneload: info: managed-keys-zone/default: loaded serial 15
+28-Nov-2023 05:39:50.929 zoneload: info: zone mohammedadilsaikiran.online/IN/IND: loaded serial 1
+28-Nov-2023 05:39:50.937 zoneload: info: zone mohammedadilsaikiran.online/IN/default: loaded serial 1
+28-Nov-2023 05:39:50.941 zoneload: info: zone mohammedadilsaikiran.online/IN/USA: loaded serial 1
+28-Nov-2023 05:39:50.945 zoneload: info: zone mohammedadilsaikiran.online/IN/UNK: loaded serial 1
+28-Nov-2023 05:39:50.949 general: notice: all zones loaded
+28-Nov-2023 05:39:50.961 general: notice: running
+28-Nov-2023 05:39:50.961 notify: info: zone mohammedadilsaikiran.online/IN/USA: sending notifies (serial 1)
+28-Nov-2023 05:39:50.961 notify: info: zone mohammedadilsaikiran.online/IN/IND: sending notifies (serial 1)
+28-Nov-2023 05:39:50.961 notify: info: zone mohammedadilsaikiran.online/IN/UNK: sending notifies (serial 1)
+28-Nov-2023 05:39:50.961 notify: info: zone mohammedadilsaikiran.online/IN/default: sending notifies (serial 1)
+28-Nov-2023 05:39:50.961 notify: info: client @0x7f00240b5518 44.209.116.84#42520: view USA: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 05:39:50.965 dnssec: info: managed-keys-zone/USA: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 05:39:50.973 dnssec: info: managed-keys-zone/default: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 05:39:50.981 resolver: info: resolver priming query complete: success
+28-Nov-2023 05:39:50.981 general: warning: checkhints: view USA: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 05:39:50.981 general: warning: checkhints: view USA: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 05:39:50.981 general: warning: checkhints: view USA: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 05:39:50.981 general: warning: checkhints: view USA: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 05:39:50.981 dnssec: info: managed-keys-zone/IND: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 05:39:50.985 dnssec: info: managed-keys-zone/UNK: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 05:39:50.993 resolver: info: resolver priming query complete: success
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view default: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view default: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view default: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view default: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 05:39:50.993 resolver: info: resolver priming query complete: success
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view IND: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view IND: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view IND: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view IND: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 05:39:50.993 resolver: info: resolver priming query complete: success
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view UNK: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view UNK: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view UNK: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 05:39:50.993 general: warning: checkhints: view UNK: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 05:39:51.465 notify: info: client @0x7f00240b5518 44.209.116.84#60584: view USA: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 05:39:51.465 notify: info: client @0x7f0024074b68 44.209.116.84#60723: view USA: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 05:39:51.465 notify: info: client @0x7f002409dd48 44.209.116.84#37732: view USA: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 05:40:39.197 queries: info: client @0x7f002409dd48 3.238.178.190#64165 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:39.197 queries: info: client @0x7f0024074b68 35.171.100.212#38051 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:39.197 queries: info: client @0x7f0024074b68 3.238.178.190#24008 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:39.205 queries: info: client @0x7f0024074b68 3.239.155.58#34644 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:49.161 queries: info: client @0x7f0024074b68 35.171.100.209#19600 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:49.161 queries: info: client @0x7f002409dd48 3.238.178.189#33031 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:49.165 queries: info: client @0x7f002409dd48 44.192.176.226#52852 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:40:49.165 queries: info: client @0x7f002409dd48 18.232.1.185#11349 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:41:23.941 queries: info: client @0x7f002409dd48 172.70.133.225#55564 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 05:41:23.945 queries: info: client @0x7f002409dd48 172.70.133.225#19800 (mohammedadilsaikiran.online): view USA: query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 05:43:30.465 queries: info: client @0x7f002409dd48 65.1.174.112#38558 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:43:30.465 queries: info: client @0x7f002409dd48 65.1.174.135#12177 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:43:30.653 queries: info: client @0x7f002409dd48 65.1.174.112#27839 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:43:30.685 queries: info: client @0x7f002409dd48 65.1.174.126#58443 (mohammedadilsaikiran.online): view IND: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:44:44.453 queries: info: client @0x7f002409dd48 18.134.255.234#5439 (mohammedadilsaikiran.online): view UNK: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:44:44.453 queries: info: client @0x7f002409dd48 18.134.255.239#48489 (mohammedadilsaikiran.online): view UNK: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:44:44.533 queries: info: client @0x7f002409dd48 18.134.255.234#12630 (mohammedadilsaikiran.online): view UNK: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:44:44.545 queries: info: client @0x7f002409dd48 35.177.154.157#58709 (mohammedadilsaikiran.online): view UNK: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:47:44.668 queries: info: client @0x7f002409dd48 13.250.186.210#8718 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:47:44.672 queries: info: client @0x7f002409dd48 13.212.209.142#49579 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 05:47:44.920 queries: info: client @0x7f002409dd48 13.212.209.142#22521 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 05:47:44.920 queries: info: client @0x7f002409dd48 13.250.186.210#58218 (mohammedadilsaikiran.online): view default: query: mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:02:52.823 queries: info: client @0x7f002409dd48 137.184.217.189#53 (cyberresilience.io): view USA: query: cyberresilience.io IN A -E(0) (172.31.36.196)
+28-Nov-2023 06:02:52.823 security: info: client @0x7f002409dd48 137.184.217.189#53 (cyberresilience.io): view USA: query (cache) 'cyberresilience.io/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 06:02:52.823 query-errors: info: client @0x7f002409dd48 137.184.217.189#53 (cyberresilience.io): view USA: query failed (REFUSED) for cyberresilience.io/IN/A at query.c:5668
+28-Nov-2023 06:12:32.889 general: info: received control channel command 'stop'
+28-Nov-2023 06:12:32.889 network: info: no longer listening on 127.0.0.1#53
+28-Nov-2023 06:12:32.889 network: info: no longer listening on 172.31.36.196#53
+28-Nov-2023 06:12:32.889 network: info: no longer listening on ::1#53
+28-Nov-2023 06:12:32.889 network: info: no longer listening on fe80::caf:d6ff:feed:e4b5%2#53
+28-Nov-2023 06:12:32.889 general: info: shutting down: flushing changes
+28-Nov-2023 06:12:32.889 general: notice: stopping command channel on 127.0.0.1#953
+28-Nov-2023 06:12:32.889 general: notice: stopping command channel on ::1#953
+28-Nov-2023 06:12:32.989 general: notice: exiting
+28-Nov-2023 06:12:33.053 zoneload: info: managed-keys-zone: loaded serial 68
+28-Nov-2023 06:12:33.053 zoneload: info: zone 127.in-addr.arpa/IN: loaded serial 1
+28-Nov-2023 06:12:33.053 zoneload: info: zone 0.in-addr.arpa/IN: loaded serial 1
+28-Nov-2023 06:12:33.053 zoneload: info: zone 255.in-addr.arpa/IN: loaded serial 1
+28-Nov-2023 06:12:33.053 zoneload: info: zone localhost/IN: loaded serial 2
+28-Nov-2023 06:12:33.057 zoneload: info: zone mohammedadilsaikiran.online/IN: loaded serial 414
+28-Nov-2023 06:12:33.057 general: notice: all zones loaded
+28-Nov-2023 06:12:33.065 general: notice: running
+28-Nov-2023 06:12:33.065 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 414)
+28-Nov-2023 06:12:33.069 notify: info: client @0x7fb52c1e7128 44.209.116.84#50650: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:12:33.073 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+28-Nov-2023 06:12:33.077 resolver: info: resolver priming query complete: success
+28-Nov-2023 06:12:33.077 general: warning: checkhints: b.root-servers.net/A (170.247.170.2) missing from hints
+28-Nov-2023 06:12:33.077 general: warning: checkhints: b.root-servers.net/A (199.9.14.201) extra record in hints
+28-Nov-2023 06:12:33.077 general: warning: checkhints: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+28-Nov-2023 06:12:33.077 general: warning: checkhints: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+28-Nov-2023 06:13:01.921 queries: info: client @0x7fb52c1e7128 96.115.169.135#54819 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:02.109 queries: info: client @0x7fb52c1e7128 3.238.178.249#13618 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:02.109 queries: info: client @0x7fb52c1c3d38 18.232.1.139#41800 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:02.109 queries: info: client @0x7fb52c1dea78 3.209.84.135#53533 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:02.109 queries: info: client @0x7fb52c1dea78 35.171.100.238#49833 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:02.109 queries: info: client @0x7fb52c1dea78 44.209.116.84#60168 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:02.113 update: info: client @0x7fb52c1dea78 44.209.116.84#34966: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:02.113 update: info: client @0x7fb52c1dea78 44.209.116.84#34966: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:02.117 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 415)
+28-Nov-2023 06:13:02.117 notify: info: client @0x7fb52c1dea78 44.209.116.84#45018: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:02.545 queries: info: client @0x7fb52c1dea78 96.115.169.167#7316 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:04.833 queries: info: client @0x7fb52c1dea78 96.115.169.141#27233 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:04.981 queries: info: client @0x7fb52c1dea78 96.115.169.165#24056 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:05.017 queries: info: client @0x7fb52c1dea78 18.232.1.139#42701 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:05.017 queries: info: client @0x7fb52c1dea78 3.239.155.107#51709 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:05.017 queries: info: client @0x7fb52c1dea78 3.209.84.135#32525 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:05.017 queries: info: client @0x7fb52c1dea78 18.232.1.144#57850 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:05.021 queries: info: client @0x7fb52c1dea78 44.209.116.84#49302 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:05.021 update: info: client @0x7fb52c1dea78 44.209.116.84#59139: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:05.021 update: info: client @0x7fb52c1dea78 44.209.116.84#59139: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:08.437 queries: info: client @0x7fb52c1dea78 96.115.169.133#20399 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:08.565 queries: info: client @0x7fb52c1dea78 96.115.169.149#16711 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:08.621 queries: info: client @0x7fb52c1dea78 3.239.155.107#13538 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:08.621 queries: info: client @0x7fb52c1dea78 44.192.176.237#34444 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:08.621 queries: info: client @0x7fb52c1dea78 3.238.178.249#27446 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:08.621 queries: info: client @0x7fb52c1dea78 44.192.177.15#44821 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:08.621 queries: info: client @0x7fb52c1dea78 44.209.116.84#40213 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:08.625 update: info: client @0x7fb52c1dea78 44.209.116.84#55654: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:08.625 update: info: client @0x7fb52c1dea78 44.209.116.84#55654: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:11.709 queries: info: client @0x7fb52c1dea78 96.115.169.149#28319 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:11.841 queries: info: client @0x7fb52c1dea78 96.115.169.151#6090 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:12.265 queries: info: client @0x7fb52c1dea78 3.239.155.107#36027 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:12.265 queries: info: client @0x7fb52c1dea78 18.232.1.139#6806 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:12.269 queries: info: client @0x7fb52c1dea78 44.192.177.15#54268 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:12.269 queries: info: client @0x7fb52c1dea78 44.192.176.237#31453 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:12.269 queries: info: client @0x7fb52c1dea78 44.209.116.84#56577 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:12.269 update: info: client @0x7fb52c1dea78 44.209.116.84#60567: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:12.269 update: info: client @0x7fb52c1dea78 44.209.116.84#60567: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:12.273 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 416)
+28-Nov-2023 06:13:12.273 notify: info: client @0x7fb52c1dea78 44.209.116.84#52965: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:13.797 queries: info: client @0x7fb52c1dea78 96.115.169.133#55194 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:13.857 queries: info: client @0x7fb52c1dea78 96.115.169.135#49905 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:14.345 queries: info: client @0x7fb52c1dea78 35.171.100.238#6259 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:14.345 queries: info: client @0x7fb52c1c3d38 44.192.176.237#16552 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:14.345 queries: info: client @0x7fb52c1c3d38 44.192.177.15#30889 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:14.345 queries: info: client @0x7fb52c1dea78 44.192.177.15#47884 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:14.349 queries: info: client @0x7fb52c1dea78 44.209.116.84#53410 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:14.349 update: info: client @0x7fb52c1dea78 44.209.116.84#59302: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:14.349 update: info: client @0x7fb52c1dea78 44.209.116.84#59302: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:15.853 queries: info: client @0x7fb52c1dea78 96.115.169.143#46968 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:15.913 queries: info: client @0x7fb52c1dea78 96.115.169.149#21831 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:16.405 queries: info: client @0x7fb52c1dea78 18.232.1.139#62691 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:16.405 queries: info: client @0x7fb52c1dea78 44.192.176.237#52967 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:16.409 queries: info: client @0x7fb52c1dea78 44.192.176.237#14390 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:16.409 queries: info: client @0x7fb52c1dea78 44.192.177.15#45158 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:16.409 queries: info: client @0x7fb52c1dea78 44.209.116.84#42978 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:16.409 update: info: client @0x7fb52c1dea78 44.209.116.84#49638: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:16.409 update: info: client @0x7fb52c1dea78 44.209.116.84#49638: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:17.233 queries: info: client @0x7fb52c1dea78 96.115.169.151#18134 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:17.377 queries: info: client @0x7fb52c1dea78 96.115.169.161#21079 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:17.569 queries: info: client @0x7fb52c1dea78 3.238.178.249#40179 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:17.569 queries: info: client @0x7fb52c1dea78 3.239.155.107#38980 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:17.569 queries: info: client @0x7fb52c1c3d38 18.232.1.144#31959 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:17.569 queries: info: client @0x7fb52c1c3d38 3.239.155.107#5523 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:17.573 queries: info: client @0x7fb52c1c3d38 44.209.116.84#43896 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:17.573 update: info: client @0x7fb52c1c3d38 44.209.116.84#53336: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:17.573 update: info: client @0x7fb52c1c3d38 44.209.116.84#53336: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:17.577 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 417)
+28-Nov-2023 06:13:17.581 notify: info: client @0x7fb52c1c3d38 44.209.116.84#47466: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:18.873 queries: info: client @0x7fb52c1c3d38 96.115.169.137#5035 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:18.925 queries: info: client @0x7fb52c1c3d38 96.115.169.137#54759 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:19.201 queries: info: client @0x7fb52c1c3d38 18.232.1.144#26914 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:19.201 queries: info: client @0x7fb52c1dea78 18.232.1.139#40477 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:19.205 queries: info: client @0x7fb52c1dea78 3.239.155.107#31876 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:19.205 queries: info: client @0x7fb52c1c3d38 3.209.84.135#57227 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:19.205 queries: info: client @0x7fb52c1c3d38 44.209.116.84#38743 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:19.205 update: info: client @0x7fb52c1c3d38 44.209.116.84#50756: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:19.205 update: info: client @0x7fb52c1c3d38 44.209.116.84#50756: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:20.569 queries: info: client @0x7fb52c1c3d38 96.115.169.161#61504 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:20.641 queries: info: client @0x7fb52c1c3d38 96.115.169.161#48337 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:20.905 queries: info: client @0x7fb52c1c3d38 3.239.155.107#12433 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:20.909 queries: info: client @0x7fb52c1c3d38 18.232.1.139#63392 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:20.909 queries: info: client @0x7fb52c1dea78 44.192.176.237#20798 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:20.909 queries: info: client @0x7fb52c1dea78 3.238.178.249#8734 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:20.909 queries: info: client @0x7fb52c1dea78 44.209.116.84#38208 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:20.909 update: info: client @0x7fb52c1dea78 44.209.116.84#56118: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:20.909 update: info: client @0x7fb52c1dea78 44.209.116.84#56118: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:21.941 queries: info: client @0x7fb52c1dea78 96.115.169.149#3961 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:22.005 queries: info: client @0x7fb52c1dea78 96.115.169.141#38208 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:22.489 queries: info: client @0x7fb52c1dea78 35.171.100.238#57513 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:22.489 queries: info: client @0x7fb52c1c3d38 18.232.1.144#62444 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:22.489 queries: info: client @0x7fb52c1c3d38 3.209.84.135#58911 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:22.489 queries: info: client @0x7fb52c1dea78 18.232.1.139#37636 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:22.489 queries: info: client @0x7fb52c1e7128 44.209.116.84#36454 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:22.489 update: info: client @0x7fb52c1e7128 44.209.116.84#36717: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:22.489 update: info: client @0x7fb52c1e7128 44.209.116.84#36717: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:22.581 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 418)
+28-Nov-2023 06:13:22.581 notify: info: client @0x7fb52c1e7128 44.209.116.84#48559: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:23.137 queries: info: client @0x7fb52c1e7128 96.115.169.141#25755 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:23.465 queries: info: client @0x7fb52c1e7128 96.115.169.163#32851 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:23.693 queries: info: client @0x7fb52c1e7128 3.238.178.249#31780 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:23.693 queries: info: client @0x7fb52c1dea78 3.209.84.135#8073 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:23.693 queries: info: client @0x7fb52c1dea78 44.192.177.15#29485 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:23.693 queries: info: client @0x7fb52c1dea78 35.171.100.238#32079 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:23.697 queries: info: client @0x7fb52c1dea78 44.209.116.84#34466 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:23.697 update: info: client @0x7fb52c1dea78 44.209.116.84#36944: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:23.697 update: info: client @0x7fb52c1dea78 44.209.116.84#36944: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:25.305 queries: info: client @0x7fb52c1dea78 96.115.169.131#35553 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:25.373 queries: info: client @0x7fb52c1dea78 96.115.169.141#11904 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:25.861 queries: info: client @0x7fb52c1dea78 18.232.1.144#15141 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:25.861 queries: info: client @0x7fb52c1e7128 3.209.84.135#43975 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:25.861 queries: info: client @0x7fb52c1c3d38 3.238.178.249#52446 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:25.865 queries: info: client @0x7fb52c1c3d38 44.192.176.237#5731 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:25.865 queries: info: client @0x7fb52c1c3d38 44.209.116.84#35650 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:25.865 update: info: client @0x7fb52c1c3d38 44.209.116.84#39533: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:25.865 update: info: client @0x7fb52c1c3d38 44.209.116.84#39533: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:26.873 queries: info: client @0x7fb52c1c3d38 96.115.169.165#53919 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:26.937 queries: info: client @0x7fb52c1c3d38 96.115.169.167#57153 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:27.201 queries: info: client @0x7fb52c1c3d38 3.239.155.107#43680 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:27.205 queries: info: client @0x7fb52c1c3d38 18.232.1.144#48407 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:27.205 queries: info: client @0x7fb52c1e7128 18.232.1.144#24267 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:27.205 queries: info: client @0x7fb52c1dea78 3.209.84.135#42767 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:27.205 queries: info: client @0x7fb52c1dea78 44.209.116.84#58683 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:27.205 update: info: client @0x7fb52c1dea78 44.209.116.84#56069: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:27.205 update: info: client @0x7fb52c1dea78 44.209.116.84#56069: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:27.585 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 419)
+28-Nov-2023 06:13:27.585 notify: info: client @0x7fb52c1dea78 44.209.116.84#50014: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:28.889 queries: info: client @0x7fb52c1dea78 96.115.169.149#4901 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:28.977 queries: info: client @0x7fb52c1dea78 96.115.169.145#9288 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:29.225 queries: info: client @0x7fb52c1dea78 44.192.176.237#35249 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:29.225 queries: info: client @0x7fb52c1e7128 3.239.155.107#34626 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:29.225 queries: info: client @0x7fb52c1e7128 18.232.1.144#30775 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:29.225 queries: info: client @0x7fb52c1e7128 18.232.1.139#14767 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:29.225 queries: info: client @0x7fb52c1e7128 44.209.116.84#38697 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:29.225 update: info: client @0x7fb52c1e7128 44.209.116.84#42653: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:29.225 update: info: client @0x7fb52c1e7128 44.209.116.84#42653: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:30.733 queries: info: client @0x7fb52c1e7128 96.115.169.141#18486 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:30.809 queries: info: client @0x7fb52c1e7128 96.115.169.163#30784 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:31.069 queries: info: client @0x7fb52c1e7128 3.239.155.107#49779 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:31.069 queries: info: client @0x7fb52c1dea78 18.232.1.144#28944 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:31.069 queries: info: client @0x7fb52c1dea78 44.192.177.15#37761 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:31.069 queries: info: client @0x7fb52c1e7128 35.171.100.238#28397 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:31.069 queries: info: client @0x7fb52c1e7128 44.209.116.84#49015 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:31.069 update: info: client @0x7fb52c1e7128 44.209.116.84#59888: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:31.069 update: info: client @0x7fb52c1e7128 44.209.116.84#59888: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:32.341 queries: info: client @0x7fb52c1e7128 96.115.169.167#53624 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:32.405 queries: info: client @0x7fb52c1e7128 96.115.169.133#41463 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:32.521 queries: info: client @0x7fb52c1e7128 3.238.178.249#40790 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:32.521 queries: info: client @0x7fb52c1e7128 35.171.100.238#29794 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:32.521 queries: info: client @0x7fb52c1dea78 3.209.84.135#10808 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:32.521 queries: info: client @0x7fb52c1dea78 18.232.1.139#14811 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:32.525 queries: info: client @0x7fb52c1dea78 44.209.116.84#41277 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:32.525 update: info: client @0x7fb52c1dea78 44.209.116.84#57786: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:32.525 update: info: client @0x7fb52c1dea78 44.209.116.84#57786: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:32.589 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 420)
+28-Nov-2023 06:13:32.589 notify: info: client @0x7fb52c1dea78 44.209.116.84#50660: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:33.721 queries: info: client @0x7fb52c1dea78 96.115.169.149#61559 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:33.881 queries: info: client @0x7fb52c1dea78 96.115.169.147#43592 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:33.905 queries: info: client @0x7fb52c1dea78 3.209.84.135#35013 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:33.905 queries: info: client @0x7fb52c1dea78 18.232.1.139#14358 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:33.905 queries: info: client @0x7fb52c1dea78 35.171.100.238#23327 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:33.905 queries: info: client @0x7fb52c1e7128 3.238.178.249#26781 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:33.905 queries: info: client @0x7fb52c1e7128 44.209.116.84#58270 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:33.909 update: info: client @0x7fb52c1e7128 44.209.116.84#34549: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:33.909 update: info: client @0x7fb52c1e7128 44.209.116.84#34549: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:35.073 queries: info: client @0x7fb52c1e7128 96.115.169.147#30903 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:35.141 queries: info: client @0x7fb52c1e7128 96.115.169.145#57109 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:35.261 queries: info: client @0x7fb52c1e7128 3.239.155.107#48561 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:35.261 queries: info: client @0x7fb52c1dea78 3.209.84.135#27213 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:35.261 queries: info: client @0x7fb52c1dea78 18.232.1.144#24994 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:35.261 queries: info: client @0x7fb52c1e7128 18.232.1.144#46572 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:35.261 queries: info: client @0x7fb52c1e7128 44.209.116.84#54278 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:35.261 update: info: client @0x7fb52c1e7128 44.209.116.84#40294: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:35.261 update: info: client @0x7fb52c1e7128 44.209.116.84#40294: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:36.469 queries: info: client @0x7fb52c1e7128 96.115.169.133#19786 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:36.537 queries: info: client @0x7fb52c1e7128 96.115.169.143#38649 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:37.061 queries: info: client @0x7fb52c1e7128 18.232.1.139#34716 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:37.061 queries: info: client @0x7fb52c1dea78 18.232.1.139#24403 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:37.061 queries: info: client @0x7fb52c1dea78 3.209.84.135#60110 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:37.061 queries: info: client @0x7fb52c1e7128 35.171.100.238#43950 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:37.061 queries: info: client @0x7fb52c1e7128 44.209.116.84#53248 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:37.061 update: info: client @0x7fb52c1e7128 44.209.116.84#54075: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:37.061 update: info: client @0x7fb52c1e7128 44.209.116.84#54075: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:37.593 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 421)
+28-Nov-2023 06:13:37.593 notify: info: client @0x7fb52c1e7128 44.209.116.84#37926: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:37.805 queries: info: client @0x7fb52c1e7128 96.115.169.149#59179 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:37.953 queries: info: client @0x7fb52c1e7128 96.115.169.139#35245 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:38.365 queries: info: client @0x7fb52c1e7128 3.209.84.135#27034 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:38.365 queries: info: client @0x7fb52c1dea78 3.238.178.249#17458 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:38.365 queries: info: client @0x7fb52c1c3d38 3.209.84.135#62634 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:38.365 queries: info: client @0x7fb52c1ceac8 18.232.1.139#16379 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:38.365 queries: info: client @0x7fb52c1ceac8 44.209.116.84#54152 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:38.365 update: info: client @0x7fb52c1ceac8 44.209.116.84#38017: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:38.365 update: info: client @0x7fb52c1ceac8 44.209.116.84#38017: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:39.233 queries: info: client @0x7fb52c1ceac8 96.115.169.129#62533 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:39.437 queries: info: client @0x7fb52c1ceac8 96.115.169.149#49324 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:39.781 queries: info: client @0x7fb52c1ceac8 35.171.100.238#39348 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:39.781 queries: info: client @0x7fb52c1c3d38 35.171.100.238#60716 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:39.781 queries: info: client @0x7fb52c1dea78 3.238.178.249#27641 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:39.785 queries: info: client @0x7fb52c1e7128 3.238.178.249#9626 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:39.785 queries: info: client @0x7fb52c1e7128 44.209.116.84#49483 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:39.785 update: info: client @0x7fb52c1e7128 44.209.116.84#52898: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:39.785 update: info: client @0x7fb52c1e7128 44.209.116.84#52898: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:40.569 queries: info: client @0x7fb52c1e7128 96.115.169.147#42948 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:40.633 queries: info: client @0x7fb52c1e7128 96.115.169.137#33293 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:40.905 queries: info: client @0x7fb52c1e7128 3.239.155.107#53002 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:40.905 queries: info: client @0x7fb52c1e7128 18.232.1.144#41404 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:40.905 queries: info: client @0x7fb52c1dea78 44.192.176.237#16546 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:40.905 queries: info: client @0x7fb52c1dea78 18.232.1.144#55676 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:40.909 queries: info: client @0x7fb52c1dea78 44.209.116.84#37267 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:40.909 update: info: client @0x7fb52c1dea78 44.209.116.84#54828: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:40.909 update: info: client @0x7fb52c1dea78 44.209.116.84#54828: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:41.857 queries: info: client @0x7fb52c1dea78 96.115.169.131#53208 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:41.925 queries: info: client @0x7fb52c1dea78 96.115.169.149#58938 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:42.189 queries: info: client @0x7fb52c1dea78 3.239.155.107#62442 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:42.193 queries: info: client @0x7fb52c1dea78 3.209.84.135#35481 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:42.193 queries: info: client @0x7fb52c1e7128 18.232.1.144#10247 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:42.193 queries: info: client @0x7fb52c1c3d38 3.238.178.249#14538 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:42.193 queries: info: client @0x7fb52c1c3d38 44.209.116.84#58552 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:42.193 update: info: client @0x7fb52c1c3d38 44.209.116.84#36358: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:42.193 update: info: client @0x7fb52c1c3d38 44.209.116.84#36358: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:42.597 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 422)
+28-Nov-2023 06:13:42.597 notify: info: client @0x7fb52c1c3d38 44.209.116.84#38894: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:43.213 queries: info: client @0x7fb52c1c3d38 96.115.169.145#23096 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:43.277 queries: info: client @0x7fb52c1c3d38 96.115.169.167#63009 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:43.541 queries: info: client @0x7fb52c1c3d38 44.192.177.15#7475 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:43.541 queries: info: client @0x7fb52c1e7128 44.192.177.15#6125 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:43.541 queries: info: client @0x7fb52c1dea78 3.239.155.107#17727 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:43.541 queries: info: client @0x7fb52c1dea78 35.171.100.238#25016 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:43.541 queries: info: client @0x7fb52c1dea78 44.209.116.84#41059 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:43.541 update: info: client @0x7fb52c1dea78 44.209.116.84#39720: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:43.541 update: info: client @0x7fb52c1dea78 44.209.116.84#39720: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:44.477 queries: info: client @0x7fb52c1dea78 96.115.169.167#31851 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:44.545 queries: info: client @0x7fb52c1dea78 96.115.169.167#34411 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:44.661 queries: info: client @0x7fb52c1dea78 44.192.177.15#62613 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:44.661 queries: info: client @0x7fb52c1e7128 3.209.84.135#5231 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:44.661 queries: info: client @0x7fb52c1c3d38 44.192.177.15#25876 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:44.661 queries: info: client @0x7fb52c1ceac8 3.239.155.107#24914 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:44.661 queries: info: client @0x7fb52c1ceac8 44.209.116.84#55829 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:44.665 update: info: client @0x7fb52c1ceac8 44.209.116.84#37214: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:44.665 update: info: client @0x7fb52c1ceac8 44.209.116.84#37214: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:45.657 queries: info: client @0x7fb52c1ceac8 96.115.169.147#37870 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:45.721 queries: info: client @0x7fb52c1ceac8 96.115.169.143#40993 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:45.837 queries: info: client @0x7fb52c1ceac8 3.239.155.107#50937 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:45.841 queries: info: client @0x7fb52c1ceac8 44.192.176.237#23674 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:45.841 queries: info: client @0x7fb52c1c3d38 3.238.178.249#65407 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:45.841 queries: info: client @0x7fb52c1e7128 44.192.177.15#47915 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:45.841 queries: info: client @0x7fb52c1e7128 44.209.116.84#45292 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:45.841 update: info: client @0x7fb52c1e7128 44.209.116.84#55617: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:45.841 update: info: client @0x7fb52c1e7128 44.209.116.84#55617: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:46.873 queries: info: client @0x7fb52c1e7128 96.115.169.161#3966 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:46.953 queries: info: client @0x7fb52c1e7128 96.115.169.151#1733 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:47.057 queries: info: client @0x7fb52c1e7128 44.192.176.237#52561 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:47.057 queries: info: client @0x7fb52c1c3d38 44.192.177.15#14052 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:47.061 queries: info: client @0x7fb52c1ceac8 18.232.1.144#32307 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:47.061 queries: info: client @0x7fb52c1dea78 44.192.176.237#64611 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:47.061 queries: info: client @0x7fb52c1dea78 44.209.116.84#57866 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:47.061 update: info: client @0x7fb52c1dea78 44.209.116.84#45329: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:47.061 update: info: client @0x7fb52c1dea78 44.209.116.84#45329: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:13:47.601 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 423)
+28-Nov-2023 06:13:47.601 notify: info: client @0x7fb52c1dea78 44.209.116.84#54748: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:48.053 queries: info: client @0x7fb52c1dea78 96.115.169.161#14620 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:48.113 queries: info: client @0x7fb52c1dea78 96.115.169.131#3214 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:48.609 queries: info: client @0x7fb52c1dea78 44.192.176.237#31447 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:48.609 queries: info: client @0x7fb52c1ceac8 18.232.1.144#42511 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:48.609 queries: info: client @0x7fb52c1c3d38 3.209.84.135#54292 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:48.609 queries: info: client @0x7fb52c1e7128 18.232.1.139#65239 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:48.613 queries: info: client @0x7fb52c1e7128 44.209.116.84#57542 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:48.613 update: info: client @0x7fb52c1e7128 44.209.116.84#33714: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:48.613 update: info: client @0x7fb52c1e7128 44.209.116.84#33714: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:49.389 queries: info: client @0x7fb52c1e7128 96.115.169.133#17161 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:49.461 queries: info: client @0x7fb52c1e7128 96.115.169.145#12753 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:49.941 queries: info: client @0x7fb52c1e7128 18.232.1.139#37887 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:49.941 queries: info: client @0x7fb52c1e7128 35.171.100.238#45710 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:49.941 queries: info: client @0x7fb52c1e7128 3.238.178.249#27014 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:49.941 queries: info: client @0x7fb52c1e7128 3.239.155.107#20031 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:49.941 queries: info: client @0x7fb52c1e7128 44.209.116.84#34854 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:49.941 update: info: client @0x7fb52c1e7128 44.209.116.84#43195: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:49.941 update: info: client @0x7fb52c1e7128 44.209.116.84#43195: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:52.605 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 424)
+28-Nov-2023 06:13:52.605 notify: info: client @0x7fb52c1e7128 44.209.116.84#35040: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:13:53.501 queries: info: client @0x7fb52c1e7128 96.115.169.149#29912 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:53.565 queries: info: client @0x7fb52c1e7128 96.115.169.139#41202 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:54.053 queries: info: client @0x7fb52c1e7128 35.171.100.238#39547 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.053 queries: info: client @0x7fb52c1c3d38 3.238.178.249#23607 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.053 queries: info: client @0x7fb52c1c3d38 44.192.176.237#25879 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.053 queries: info: client @0x7fb52c1c3d38 18.232.1.139#58369 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.053 queries: info: client @0x7fb52c1c3d38 44.209.116.84#57015 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:54.057 update: info: client @0x7fb52c1c3d38 44.209.116.84#37801: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:54.057 update: info: client @0x7fb52c1c3d38 44.209.116.84#37801: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:13:54.493 queries: info: client @0x7fb52c1c3d38 96.115.169.131#50898 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:54.557 queries: info: client @0x7fb52c1c3d38 96.115.169.135#14576 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:54.825 queries: info: client @0x7fb52c1c3d38 35.171.100.238#56026 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.825 queries: info: client @0x7fb52c1e7128 35.171.100.238#27250 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.825 queries: info: client @0x7fb52c1ceac8 44.192.177.15#23458 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.825 queries: info: client @0x7fb52c1ceac8 18.232.1.144#25586 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:54.825 queries: info: client @0x7fb52c1ceac8 44.209.116.84#40080 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:54.829 update: info: client @0x7fb52c1ceac8 44.209.116.84#59801: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:54.829 update: info: client @0x7fb52c1ceac8 44.209.116.84#59801: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:55.501 queries: info: client @0x7fb52c1ceac8 96.115.169.151#19175 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:55.561 queries: info: client @0x7fb52c1ceac8 96.115.169.129#49292 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:13:55.833 queries: info: client @0x7fb52c1ceac8 44.192.176.237#47254 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:55.833 queries: info: client @0x7fb52c1e7128 18.232.1.144#55649 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:55.833 queries: info: client @0x7fb52c1e7128 35.171.100.238#12478 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:55.833 queries: info: client @0x7fb52c1e7128 44.192.177.15#50209 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:13:55.833 queries: info: client @0x7fb52c1e7128 44.209.116.84#35505 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:13:55.833 update: info: client @0x7fb52c1e7128 44.209.116.84#56842: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:13:55.833 update: info: client @0x7fb52c1e7128 44.209.116.84#56842: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:13:57.609 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 425)
+28-Nov-2023 06:13:57.609 notify: info: client @0x7fb52c1e7128 44.209.116.84#44628: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:14:06.557 queries: info: client @0x7fb52c1e7128 96.115.169.129#9836 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:06.625 queries: info: client @0x7fb52c1e7128 96.115.169.141#46063 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:06.893 queries: info: client @0x7fb52c1e7128 3.238.178.249#35967 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:06.893 queries: info: client @0x7fb52c1ceac8 3.209.84.135#49081 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:06.897 queries: info: client @0x7fb52c1ceac8 18.232.1.139#27190 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:06.897 queries: info: client @0x7fb52c1e7128 44.192.176.237#18491 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:06.897 queries: info: client @0x7fb52c1e7128 44.209.116.84#39245 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:06.897 update: info: client @0x7fb52c1e7128 44.209.116.84#54857: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:06.897 update: info: client @0x7fb52c1e7128 44.209.116.84#54857: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 18.133.93.123
+28-Nov-2023 06:14:07.381 queries: info: client @0x7fb52c1e7128 96.115.169.163#23009 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:07.445 queries: info: client @0x7fb52c1e7128 96.115.169.165#38531 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:07.561 queries: info: client @0x7fb52c1e7128 18.232.1.139#51786 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:07.561 queries: info: client @0x7fb52c1ceac8 3.209.84.135#18070 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:07.561 queries: info: client @0x7fb52c1c3d38 44.192.177.15#31315 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:07.561 queries: info: client @0x7fb52c1c3d38 3.239.155.107#52288 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:07.561 queries: info: client @0x7fb52c1c3d38 44.209.116.84#55710 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:07.561 update: info: client @0x7fb52c1c3d38 44.209.116.84#58062: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:07.561 update: info: client @0x7fb52c1c3d38 44.209.116.84#58062: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:14:07.569 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 426)
+28-Nov-2023 06:14:07.569 notify: info: client @0x7fb52c1c3d38 44.209.116.84#38037: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:14:08.621 queries: info: client @0x7fb52c1c3d38 96.115.169.147#49806 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:08.685 queries: info: client @0x7fb52c1c3d38 96.115.169.165#45574 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:08.805 queries: info: client @0x7fb52c1c3d38 3.209.84.135#24511 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:08.805 queries: info: client @0x7fb52c1c3d38 3.238.178.249#20484 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:08.805 queries: info: client @0x7fb52c1ceac8 44.192.176.237#26068 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:08.805 queries: info: client @0x7fb52c1ceac8 44.192.177.15#48323 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:08.805 queries: info: client @0x7fb52c1ceac8 44.209.116.84#35128 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:08.809 update: info: client @0x7fb52c1ceac8 44.209.116.84#49622: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:08.809 update: info: client @0x7fb52c1ceac8 44.209.116.84#49622: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:14:10.093 queries: info: client @0x7fb52c1ceac8 96.115.169.161#23701 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:10.161 queries: info: client @0x7fb52c1ceac8 96.115.169.131#61477 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:10.273 queries: info: client @0x7fb52c1ceac8 3.239.155.107#33005 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:10.273 queries: info: client @0x7fb52c1ceac8 18.232.1.139#43333 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:10.277 queries: info: client @0x7fb52c1ceac8 3.209.84.135#23545 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:10.277 queries: info: client @0x7fb52c1ceac8 18.232.1.144#36734 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:10.277 queries: info: client @0x7fb52c1ceac8 44.209.116.84#45617 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:10.277 update: info: client @0x7fb52c1ceac8 44.209.116.84#55864: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:10.277 update: info: client @0x7fb52c1ceac8 44.209.116.84#55864: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 75.101.146.32
+28-Nov-2023 06:14:11.413 queries: info: client @0x7fb52c1ceac8 96.115.169.163#61209 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:11.477 queries: info: client @0x7fb52c1ceac8 96.115.169.129#58438 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:11.969 queries: info: client @0x7fb52c1ceac8 35.171.100.238#43828 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:11.969 queries: info: client @0x7fb52c1ceac8 3.239.155.107#12527 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:11.969 queries: info: client @0x7fb52c1ceac8 18.232.1.144#61265 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:11.969 queries: info: client @0x7fb52c1c3d38 3.238.178.249#64590 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:11.969 queries: info: client @0x7fb52c1c3d38 44.209.116.84#39302 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:11.973 update: info: client @0x7fb52c1c3d38 44.209.116.84#52685: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:11.973 update: info: client @0x7fb52c1c3d38 44.209.116.84#52685: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:14:12.573 notify: info: zone mohammedadilsaikiran.online/IN: sending notifies (serial 427)
+28-Nov-2023 06:14:12.573 notify: info: client @0x7fb52c1c3d38 44.209.116.84#43357: received notify for zone 'mohammedadilsaikiran.online'
+28-Nov-2023 06:14:12.585 queries: info: client @0x7fb52c1c3d38 96.115.169.149#12884 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:12.665 queries: info: client @0x7fb52c1c3d38 96.115.169.137#29578 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:13.137 queries: info: client @0x7fb52c1c3d38 44.192.177.15#44165 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:13.137 queries: info: client @0x7fb52c1ceac8 44.192.177.15#21613 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:13.137 queries: info: client @0x7fb52c1ceac8 3.239.155.107#28874 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:13.137 queries: info: client @0x7fb52c1c3d38 3.209.84.135#44313 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:13.137 queries: info: client @0x7fb52c1c3d38 44.209.116.84#57703 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:13.141 update: info: client @0x7fb52c1c3d38 44.209.116.84#39139: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:13.141 update: info: client @0x7fb52c1c3d38 44.209.116.84#39139: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:14:14.169 queries: info: client @0x7fb52c1c3d38 96.115.169.143#61031 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:14.237 queries: info: client @0x7fb52c1c3d38 96.115.169.161#31104 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN AAAA -E(0)D (172.31.36.196)
+28-Nov-2023 06:14:14.725 queries: info: client @0x7fb52c1c3d38 18.232.1.139#33648 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:14.725 queries: info: client @0x7fb52c1ceac8 35.171.100.238#17103 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:14.725 queries: info: client @0x7fb52c1ceac8 3.209.84.135#39943 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:14.725 queries: info: client @0x7fb52c1c3d38 3.238.178.249#56445 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN AAAA -E(0)DC (172.31.36.196)
+28-Nov-2023 06:14:14.725 queries: info: client @0x7fb52c1c3d38 44.209.116.84#51503 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN SOA - (172.31.36.196)
+28-Nov-2023 06:14:14.729 update: info: client @0x7fb52c1c3d38 44.209.116.84#33953: updating zone 'mohammedadilsaikiran.online/IN': deleting rrset at 'mohammedadilsaikiran.online' A
+28-Nov-2023 06:14:14.729 update: info: client @0x7fb52c1c3d38 44.209.116.84#33953: updating zone 'mohammedadilsaikiran.online/IN': adding an RR at 'mohammedadilsaikiran.online' A 3.110.253.167
+28-Nov-2023 06:20:21.404 queries: info: client @0x7fb52c1fd948 167.71.38.185#22444 (cyberresilience.io): query: cyberresilience.io IN A -E(0)T (172.31.36.196)
+28-Nov-2023 06:20:21.404 security: info: client @0x7fb52c1fd948 167.71.38.185#22444 (cyberresilience.io): query (cache) 'cyberresilience.io/A/IN' denied (allow-query-cache did not match)
+28-Nov-2023 06:20:21.404 query-errors: info: client @0x7fb52c1fd948 167.71.38.185#22444 (cyberresilience.io): query failed (REFUSED) for cyberresilience.io/IN/A at query.c:5668
+28-Nov-2023 06:26:44.324 queries: info: client @0x7fb52c1c3d38 172.70.41.165#60257 (ycxnkzqyorxhhorhsmftq.mohammedadilsaikiran.online): query: ycxnkzqyorxhhorhsmftq.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:26:44.324 queries: info: client @0x7fb52c1ceac8 172.71.193.29#64324 (hkelcdnsetfvqpqfmcnrl.mohammedadilsaikiran.online): query: hkelcdnsetfvqpqfmcnrl.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:26:44.324 queries: info: client @0x7fb52c1ceac8 172.71.193.29#28764 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 06:26:44.324 queries: info: client @0x7fb52c1c3d38 172.70.41.165#46074 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN DNSKEY -E(0)D (172.31.36.196)
+28-Nov-2023 06:43:20.954 queries: info: client @0x7fb52c1c3d38 209.38.208.218#35017 (ns1.mohammedadilsaikiran.online): query: ns1.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:43:20.962 queries: info: client @0x7fb52c1c3d38 139.59.150.249#25461 (www.mohammedadilsaikiran.online): query: www.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:43:23.022 queries: info: client @0x7fb52c1c3d38 64.226.112.111#33566 (mohammedadilsaikiran.online): query: mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
+28-Nov-2023 06:43:24.114 queries: info: client @0x7fb52c1c3d38 139.59.150.249#58957 (ns2.mohammedadilsaikiran.online): query: ns2.mohammedadilsaikiran.online IN A -E(0)D (172.31.36.196)
